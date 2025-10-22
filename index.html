@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workout With Me - Premium Fitness Platform</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/Workout%20With%20Me%20Logo.png">
+  <link rel="apple-touch-icon" href="img/Workout%20With%20Me%20Logo.png">
+  <link rel="shortcut icon" href="img/Workout%20With%20Me%20Logo.png">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <div class="logo">
+        <span class="logo-icon">🏋 </span>
+        <a href="#hero" class="logo-text" aria-label="Home">WORKOUT</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="navMenu" class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link">Home</a></li>
+          <li><a href="#programs" class="nav-link">Programs</a></li>
+          <li><a href="#features" class="nav-link">Features</a></li>
+          <!-- <li><a href="#testimonials" class="nav-link">Testimonials</a></li> -->
+          <li><a href="#membership" class="nav-link">Membership</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="cta-nav-button">Get Started</button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge"> ⚡ Join 10k+ Fitness Enthusiasts</div>
+      <h1 class="hero-title">Transform Your Body,<br><span class="gradient-text">Transform Your Life</span></h1>
+      <p class="hero-description">Access premium workout videos, personalized training plans, and nutrition guidance from certified trainers. <br>Start your fitness journey today.</p>
+      <div class="hero-buttons">
+        <button class="cta-button primary">Start Free Trial</button>
+        <button class="cta-button secondary" id="videoBtn">Watch Demo</button>
+      </div>
+      <div class="stats">
+        <div class="stat-box">
+          <div class="stat-number">10k+</div>
+          <div class="stat-label">Active Members</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">1000+</div>
+          <div class="stat-label">Video Workouts</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">98%</div>
+          <div class="stat-label">Satisfaction Rate</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-image">
+      <div class="image-wrapper">
+        <img src="img/cover.png.jpg" alt="Professional fitness trainer" />
+        <div class="image-overlay"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2 class="section-title">Why Choose Us</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">📱</div>
+          <h3>Mobile Friendly</h3>
+          <p>Train anywhere, anytime with our responsive app and web platform.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👨‍🏫</div>
+          <h3>Expert Trainers</h3>
+          <p>Learn from certified fitness professionals with years of experience.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">📊</div>
+          <h3>Progress Tracking</h3>
+          <p>Monitor your fitness journey with detailed analytics and insights.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Personalized Plans</h3>
+          <p>Get customized workout and meal plans tailored to your goals.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">👥</div>
+          <h3>Community Support</h3>
+          <p>Connect with thousands of fitness enthusiasts and stay motivated.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🏆</div>
+          <h3>Proven Results</h3>
+          <p>Join members who have achieved their fitness goals with us.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs Section -->
+  <section class="programs" id="programs">
+    <div class="container">
+      <h2 class="section-title">Our Programs</h2>
+      <p class="section-subtitle">Choose the perfect program for your fitness level and goals</p>
+      <div class="program-cards">
+        <div class="card program-card">
+          <div class="card-header">
+            <h3>Beginner</h3>
+            <span class="badge">Popular</span>
+          </div>
+          <p class="card-description">Perfect for those just starting their fitness journey.</p>
+          <ul class="card-features">
+            <li>✓ 100+ beginner workouts</li>
+            <li>✓ Basic nutrition guide</li>
+            <li>✓ Community access</li>
+            <li>✓ Mobile app</li>
+          </ul>
+          <button class="card-button">Get Started</button>
+        </div>
+        <div class="card program-card featured">
+          <div class="card-header">
+            <h3>Intermediate</h3>
+            <span class="badge premium">Most Popular</span>
+          </div>
+          <p class="card-description">For those ready to level up their training.</p>
+          <ul class="card-features">
+            <li>✓ 500+ advanced workouts</li>
+            <li>✓ Personalized meal plans</li>
+            <li>✓ 1-on-1 coaching</li>
+            <li>✓ Progress tracking</li>
+            <li>✓ Offline downloads</li>
+          </ul>
+          <button class="card-button primary">Start Now</button>
+        </div>
+        <div class="card program-card">
+          <div class="card-header">
+            <h3>Advanced</h3>
+            <span class="badge">Elite</span>
+          </div>
+          <p class="card-description">For serious athletes and fitness enthusiasts.</p>
+          <ul class="card-features">
+            <li>✓ 1000+ expert workouts</li>
+            <li>✓ Advanced nutrition plans</li>
+            <li>✓ Priority support</li>
+            <li>✓ Live training sessions</li>
+            <li>✓ Custom programs</li>
+          </ul>
+          <button class="card-button">Upgrade Now</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">Success Stories</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"This platform completely transformed my fitness routine. The trainers are amazing and the community is so supportive!"</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JM</div>
+            <div>
+              <div class="author-name">John Martinez</div>
+              <div class="author-role">Lost 30 lbs in 6 months</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"I've tried many fitness apps, but this one stands out. The personalized plans really work and the app is so easy to use."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SL</div>
+            <div>
+              <div class="author-name">Sarah Lee</div>
+              <div class="author-role">Built muscle and strength</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <p class="testimonial-text">"Best investment I've made for my health. The variety of workouts keeps me motivated and the results speak for themselves."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MC</div>
+            <div>
+              <div class="author-name">Mike Chen</div>
+              <div class="author-role">Completed 3 challenges</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Membership Section -->
+  <section class="membership" id="membership">
+    <div class="container">
+      <h2 class="section-title">Flexible Membership Plans</h2>
+      <div class="membership-toggle">
+        <button class="toggle-btn active" data-plan="monthly">Monthly</button>
+        <button class="toggle-btn" data-plan="yearly">Yearly <span class="save-badge">Save 20%</span></button>
+      </div>
+      <div class="membership-cards">
+        <div class="card membership-card">
+          <h4>Free Trial</h4>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount">0</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="membership-features">
+            <li>✓ 100+ full-length videos</li>
+            <li>✓ Join our community</li>
+            <li>✓ Basic progress tracking</li>
+            <li>✗ Personalized plans</li>
+            <li>✗ Priority support</li>
+          </ul>
+          <button class="membership-button">Start Free</button>
+        </div>
+        <div class="card membership-card featured">
+          <div class="featured-badge">BEST VALUE</div>
+          <h4>Premium</h4>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount monthly-price">9.99</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="membership-features">
+            <li>✓ 500+ premium videos</li>
+            <li>✓ Personalized meal plans</li>
+            <li>✓ Advanced progress tracking</li>
+            <li>✓ 1-on-1 coaching</li>
+            <li>✓ Offline downloads</li>
+          </ul>
+          <button class="membership-button primary">Upgrade Now</button>
+        </div>
+        <div class="card membership-card">
+          <h4>Elite</h4>
+          <div class="price">
+            <span class="currency">$</span>
+            <span class="amount monthly-price">19.99</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="membership-features">
+            <li>✓ 1000+ expert workouts</li>
+            <li>✓ Custom training programs</li>
+            <li>✓ Live training sessions</li>
+            <li>✓ Priority 24/7 support</li>
+            <li>✓ Exclusive content</li>
+          </ul>
+          <button class="membership-button">Go Elite</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Updated</h2>
+      <p>Get fitness tips, workout plans, and exclusive offers delivered to your inbox.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <input type="email" placeholder="Enter your email" required aria-label="Email address">
+        <button type="submit" class="cta-button primary">Subscribe</button>
+      </form>
+      <div id="formMessage" class="form-message"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" placeholder="Your Name" required aria-label="Full name">
+        </div>
+        <div class="form-group">
+          <input type="email" placeholder="Your Email" required aria-label="Email address">
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" rows="5" required aria-label="Message"></textarea>
+        </div>
+        <button type="submit" class="cta-button primary">Send Message</button>
+      </form>
+      <div id="contactMessage" class="form-message"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Workout With Me</h4>
+          <p>Your ultimate fitness companion for achieving your goals.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#programs">Programs</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#membership">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">📷</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Workout With Me. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for video demo -->
+  <div class="modal" id="videoModal">
+    <div class="modal-content">
+      <button class="modal-close" id="closeModal">&times;</button>
+      <div class="modal-body">
+        <h3>Watch Our Demo</h3>
+        <p>Experience the power of our platform with this quick demo video.</p>
+        <div class="video-placeholder">
+          <div class="play-button">▶</div>
+          <p>Demo Video</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
