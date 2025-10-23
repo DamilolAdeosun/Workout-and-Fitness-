@@ -1,4 +1,5 @@
-<img width="325" height="658" alt="Workout and Fitness website Preview" src="https://github.com/user-attachments/assets/7ea0787a-eaae-4f0e-8599-cd8ef47685a1" />
+<img width="1349" height="680" alt="image" src="https://github.com/user-attachments/assets/dc1dac91-9ca9-4d53-a5c1-7c416087c36a" />
+
 
 1. Workout and Fitness website
 
