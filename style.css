@@ -84,7 +84,11 @@ a {
 }
 
 .logo-icon {
-  font-size: 1.8rem;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  object-fit: contain;
+  border-radius: 6px;
   animation: pulse 2s ease-in-out infinite;
 }
 
